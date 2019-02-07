@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: white;
+  background-image: url('./bgd.png');
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.body{
+  height: 480px;
+  margin: 20px 150px;
+  border-radius: 1%;
+  background-color: whitesmoke;
+}
+
+.description{
+  font-size: 24px;
+  margin: 5px 25px;
+}
+
+#dialoga{
+  border-top: 2px lightcoral solid;
+  border-bottom: 2px lightcoral solid;
+}
+
+.dialogHead{
+  font-weight: bold;
+}
+.dialogContent{
+  font-weight: normal;
+}
+.header{
+  background-color: lightcoral;
+  height: 50px;
+}
+
+h3{
+  margin: 5px auto;
+}
+.contact{
+  height:50px;
+  padding: 30px;
+}
+
+#me{
+  max-height: 200px;
+  max-width: 200px;
+  margin: 10px auto;
+}
+
+.navIcons{
+  max-width: 50px;
+  max-height: 50px;
+  padding: 10px 30px 0px;
+}
+
+.navIcons2{
+  max-width: 55px;
+  max-height: 55px;
+  padding: 10px 30px 0px;
+}
+.title, h2{
+  color: white;
+  margin: auto;
+  font-size: 44px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
